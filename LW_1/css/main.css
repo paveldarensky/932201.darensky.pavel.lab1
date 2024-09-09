@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    font-family: "Segoe UI", sans-serif;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 100;
+  word-spacing: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside__left, .aside__right{
+  max-width: 35%;
+  width: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+    background-color: blue;
+    color: #FFF;
+    padding: 0px 20px 8px;
+}
+
+.rectangle {
+  content: "";
+  height: 90px;
+  width: 90px;
+  border: 5px solid;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  float: left;
+  margin-right: 18px;
+  margin-bottom: 25px;
+}
+
+.link__tsu {
+  display: block;
+  text-align: center;
+  margin: 5px 0%;
+  color: red;
+}
+
+ul {
+  margin-bottom: 15px;
+}
+
+ul > li {
+  margin: 5px 0;
+}
+
+.left__block {
+  float: left;
+  line-height: 30px;
+  margin-right: 50px;
+}
+
+.left__block h2 {
+  font-size: 20px;
+}
+
+.right__block {
+  float: right;
+  margin-top: 3px;
+}
+
+table {
+  border: 1px solid;
+  border-spacing: 3px;
+}
+
+table tr{
+  text-align: center;
+  vertical-align: bottom;
+  height: 35px;
+}
+
+table td{
+  width: 40px;
+  font-weight: bold;
+  border: 1px solid;
+}
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 170px;
+}
+
+footer h1 {
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
